@@ -1,0 +1,343 @@
+#NEXUS
+[R-package APE, Mon Apr 13 20:26:41 2020]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 165;
+	TAXLABELS
+		Acanthogilia_gloriosa
+		Aliciella_caespitosa
+		Aliciella_hutchinsifolia
+		Aliciella_leptomeria
+		Aliciella_micromeria
+		Aliciella_subnuda
+		Allophyllum_divaricatum
+		Allophyllum_gilioides
+		Allophyllum_glutinosum
+		Allophyllum_integrifolium
+		Allophyllum_violaceum
+		Bonplandia_geminiflora
+		Cantua_buxifolia
+		Cantua_candelilla
+		Cantua_quercifolia
+		Cobaea_aequatoriensis
+		Cobaea_aschersoniana
+		Cobaea_campanulata
+		Cobaea_lutea
+		Cobaea_minor
+		Cobaea_penduliflora
+		Cobaea_rotundiflora
+		Cobaea_scandens
+		Cobaea_trianae
+		Collomia_grandiflora
+		Collomia_heterophylla
+		Collomia_linearis
+		Collomia_mazama
+		Collomia_rawsoniana
+		Collomia_tinctoria
+		Dayia_grantii
+		Eriastrum_densifolium
+		Eriastrum_eremicum
+		Eriastrum_luteum
+		Eriastrum_sapphirinum
+		Eriastrum_wilcoxii
+		Fouquieria_splendens
+		Gilia_achilleifolia
+		Gilia_aliquanta
+		Gilia_angelensis
+		Gilia_austrooccidentalis
+		Gilia_cana
+		Gilia_capitata
+		Gilia_clivorum
+		Gilia_clokeyi
+		Gilia_crassifolia
+		Gilia_diegensis
+		Gilia_inconspicua
+		Gilia_interior
+		Gilia_laciniata
+		Gilia_latiflora
+		Gilia_latiflora_ssp_davyi
+		Gilia_latiflora_ssp_elongata
+		Gilia_latiflora_ssp_latiflora
+		Gilia_leptantha
+		Gilia_leptantha_ssp_leptantha
+		Gilia_leptantha_ssp_pinetorum
+		Gilia_leptantha_ssp_purpusii
+		Gilia_malior
+		Gilia_mexicana
+		Gilia_millefoliata
+		Gilia_minor
+		Gilia_nevinii
+		Gilia_ochroleuca_ssp_bizonata
+		Gilia_ochroleuca_ssp_exilis
+		Gilia_ochroleuca_ssp_ochroleuca
+		Gilia_opthalmoides_ssp_flav
+		Gilia_sinuata
+		Gilia_stellata
+		Gilia_tenuiflora
+		Gilia_transmontana
+		Gilia_tricolor
+		Gilia_tweedyi
+		Gilia_valdiviensis
+		Giliastrum_foetidum
+		Giliastrum_incisum
+		Giliastrum_rigidulum
+		Gymnosteris_nudicaulis
+		Gymnosteris_parvula
+		Ipomopsis_aggregata_ssp_aggregata
+		Ipomopsis_aggregata_ssp_bridgesii
+		Ipomopsis_aggregata_ssp_candida
+		Ipomopsis_aggregata_ssp_formosissima
+		Ipomopsis_arizonica
+		Ipomopsis_congesta
+		Ipomopsis_congesta_ssp_congesta
+		Ipomopsis_gossypifera
+		Ipomopsis_guttata
+		Ipomopsis_longiflora
+		Ipomopsis_macombii
+		Ipomopsis_multiflora_ssp_multiflora
+		Ipomopsis_pinnata
+		Ipomopsis_polyantha
+		Ipomopsis_polycladon
+		Ipomopsis_pumila
+		Ipomopsis_roseata
+		Ipomopsis_rubra
+		Ipomopsis_tenuifolia
+		Ipomopsis_tenuituba
+		Ipomopsis_thurberi
+		Langloisia_punctata
+		Langloisia_setosissima
+		Leptosiphon_androsaceus
+		Leptosiphon_bicolor
+		Leptosiphon_breviculus
+		Leptosiphon_floribundus
+		Leptosiphon_grandiflorus
+		Leptosiphon_harknessii
+		Leptosiphon_liniflorus
+		Leptosiphon_nuttallii
+		Leptosiphon_parviflorus
+		Leptosiphon_septentrionalis
+		Linanthus_californicus
+		Linanthus_dianthiflorus
+		Linanthus_dichotomus
+		Linanthus_parryae
+		Loeselia_mexicana
+		Loeseliastrum_depressum
+		Loeseliastrum_matthewsii
+		Microgilia_minutiflora
+		Microsteris_gracilis
+		Navarretia_atractyloides
+		Navarretia_capillaris
+		Navarretia_hamata
+		Navarretia_leptalea
+		Navarretia_peninsularis
+		Navarretia_pubescens
+		Navarretia_squarrosa
+		Navarretia_subuligera
+		Navarretia_viscidula
+		Phlox_andicola
+		Phlox_caespitosa
+		Phlox_cuspidata
+		Phlox_diffusa
+		Phlox_divaricata
+		Phlox_drummondii
+		Phlox_glaberrima
+		Phlox_maculata
+		Phlox_multiflora
+		Phlox_nana
+		Phlox_paniculata
+		Phlox_pilosa
+		Phlox_roemeriana
+		Phlox_stansburyi
+		Phlox_stolonifera
+		Phlox_subulata
+		Polemonium_boreale
+		Polemonium_brandegei
+		Polemonium_caeruleum
+		Polemonium_californicum
+		Polemonium_confertum
+		Polemonium_delicatum
+		Polemonium_elegans
+		Polemonium_eximium
+		Polemonium_foliosissimum
+		Polemonium_mexicanum
+		Polemonium_micranthum
+		Polemonium_pauciflorum
+		Polemonium_pulcherrimum
+		Polemonium_reptans
+		Polemonium_viscosum
+		Saltugilia_australis
+		Saltugilia_caruifolia
+		Saltugilia_splendens_ssp_grantii
+		Saltugilia_splendens_ssp_splendens
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Acanthogilia_gloriosa,
+		2	Aliciella_caespitosa,
+		3	Aliciella_hutchinsifolia,
+		4	Aliciella_leptomeria,
+		5	Aliciella_micromeria,
+		6	Aliciella_subnuda,
+		7	Allophyllum_divaricatum,
+		8	Allophyllum_gilioides,
+		9	Allophyllum_glutinosum,
+		10	Allophyllum_integrifolium,
+		11	Allophyllum_violaceum,
+		12	Bonplandia_geminiflora,
+		13	Cantua_buxifolia,
+		14	Cantua_candelilla,
+		15	Cantua_quercifolia,
+		16	Cobaea_aequatoriensis,
+		17	Cobaea_aschersoniana,
+		18	Cobaea_campanulata,
+		19	Cobaea_lutea,
+		20	Cobaea_minor,
+		21	Cobaea_penduliflora,
+		22	Cobaea_rotundiflora,
+		23	Cobaea_scandens,
+		24	Cobaea_trianae,
+		25	Collomia_grandiflora,
+		26	Collomia_heterophylla,
+		27	Collomia_linearis,
+		28	Collomia_mazama,
+		29	Collomia_rawsoniana,
+		30	Collomia_tinctoria,
+		31	Dayia_grantii,
+		32	Eriastrum_densifolium,
+		33	Eriastrum_eremicum,
+		34	Eriastrum_luteum,
+		35	Eriastrum_sapphirinum,
+		36	Eriastrum_wilcoxii,
+		37	Fouquieria_splendens,
+		38	Gilia_achilleifolia,
+		39	Gilia_aliquanta,
+		40	Gilia_angelensis,
+		41	Gilia_austrooccidentalis,
+		42	Gilia_cana,
+		43	Gilia_capitata,
+		44	Gilia_clivorum,
+		45	Gilia_clokeyi,
+		46	Gilia_crassifolia,
+		47	Gilia_diegensis,
+		48	Gilia_inconspicua,
+		49	Gilia_interior,
+		50	Gilia_laciniata,
+		51	Gilia_latiflora,
+		52	Gilia_latiflora_ssp_davyi,
+		53	Gilia_latiflora_ssp_elongata,
+		54	Gilia_latiflora_ssp_latiflora,
+		55	Gilia_leptantha,
+		56	Gilia_leptantha_ssp_leptantha,
+		57	Gilia_leptantha_ssp_pinetorum,
+		58	Gilia_leptantha_ssp_purpusii,
+		59	Gilia_malior,
+		60	Gilia_mexicana,
+		61	Gilia_millefoliata,
+		62	Gilia_minor,
+		63	Gilia_nevinii,
+		64	Gilia_ochroleuca_ssp_bizonata,
+		65	Gilia_ochroleuca_ssp_exilis,
+		66	Gilia_ochroleuca_ssp_ochroleuca,
+		67	Gilia_opthalmoides_ssp_flav,
+		68	Gilia_sinuata,
+		69	Gilia_stellata,
+		70	Gilia_tenuiflora,
+		71	Gilia_transmontana,
+		72	Gilia_tricolor,
+		73	Gilia_tweedyi,
+		74	Gilia_valdiviensis,
+		75	Giliastrum_foetidum,
+		76	Giliastrum_incisum,
+		77	Giliastrum_rigidulum,
+		78	Gymnosteris_nudicaulis,
+		79	Gymnosteris_parvula,
+		80	Ipomopsis_aggregata_ssp_aggregata,
+		81	Ipomopsis_aggregata_ssp_bridgesii,
+		82	Ipomopsis_aggregata_ssp_candida,
+		83	Ipomopsis_aggregata_ssp_formosissima,
+		84	Ipomopsis_arizonica,
+		85	Ipomopsis_congesta,
+		86	Ipomopsis_congesta_ssp_congesta,
+		87	Ipomopsis_gossypifera,
+		88	Ipomopsis_guttata,
+		89	Ipomopsis_longiflora,
+		90	Ipomopsis_macombii,
+		91	Ipomopsis_multiflora_ssp_multiflora,
+		92	Ipomopsis_pinnata,
+		93	Ipomopsis_polyantha,
+		94	Ipomopsis_polycladon,
+		95	Ipomopsis_pumila,
+		96	Ipomopsis_roseata,
+		97	Ipomopsis_rubra,
+		98	Ipomopsis_tenuifolia,
+		99	Ipomopsis_tenuituba,
+		100	Ipomopsis_thurberi,
+		101	Langloisia_punctata,
+		102	Langloisia_setosissima,
+		103	Leptosiphon_androsaceus,
+		104	Leptosiphon_bicolor,
+		105	Leptosiphon_breviculus,
+		106	Leptosiphon_floribundus,
+		107	Leptosiphon_grandiflorus,
+		108	Leptosiphon_harknessii,
+		109	Leptosiphon_liniflorus,
+		110	Leptosiphon_nuttallii,
+		111	Leptosiphon_parviflorus,
+		112	Leptosiphon_septentrionalis,
+		113	Linanthus_californicus,
+		114	Linanthus_dianthiflorus,
+		115	Linanthus_dichotomus,
+		116	Linanthus_parryae,
+		117	Loeselia_mexicana,
+		118	Loeseliastrum_depressum,
+		119	Loeseliastrum_matthewsii,
+		120	Microgilia_minutiflora,
+		121	Microsteris_gracilis,
+		122	Navarretia_atractyloides,
+		123	Navarretia_capillaris,
+		124	Navarretia_hamata,
+		125	Navarretia_leptalea,
+		126	Navarretia_peninsularis,
+		127	Navarretia_pubescens,
+		128	Navarretia_squarrosa,
+		129	Navarretia_subuligera,
+		130	Navarretia_viscidula,
+		131	Phlox_andicola,
+		132	Phlox_caespitosa,
+		133	Phlox_cuspidata,
+		134	Phlox_diffusa,
+		135	Phlox_divaricata,
+		136	Phlox_drummondii,
+		137	Phlox_glaberrima,
+		138	Phlox_maculata,
+		139	Phlox_multiflora,
+		140	Phlox_nana,
+		141	Phlox_paniculata,
+		142	Phlox_pilosa,
+		143	Phlox_roemeriana,
+		144	Phlox_stansburyi,
+		145	Phlox_stolonifera,
+		146	Phlox_subulata,
+		147	Polemonium_boreale,
+		148	Polemonium_brandegei,
+		149	Polemonium_caeruleum,
+		150	Polemonium_californicum,
+		151	Polemonium_confertum,
+		152	Polemonium_delicatum,
+		153	Polemonium_elegans,
+		154	Polemonium_eximium,
+		155	Polemonium_foliosissimum,
+		156	Polemonium_mexicanum,
+		157	Polemonium_micranthum,
+		158	Polemonium_pauciflorum,
+		159	Polemonium_pulcherrimum,
+		160	Polemonium_reptans,
+		161	Polemonium_viscosum,
+		162	Saltugilia_australis,
+		163	Saltugilia_caruifolia,
+		164	Saltugilia_splendens_ssp_grantii,
+		165	Saltugilia_splendens_ssp_splendens
+	;
+	TREE * UNTITLED = [&R] (37:91.57699889,((1:59.42905956,((12:42.44896911,(((((16:6.469685271,18:6.469685271):4.09157232,(19:5.8867105,22:5.8867105):4.674547091):5.601656066,(17:10.13383626,21:10.13383626):6.029077408):6.730081876,(23:5.739271354,24:5.739271354):17.15372418):10.76605438,20:33.65904993):8.789919186):5.341713894,((14:7.980379827,13:7.980379837):18.2149239,15:26.19530374):21.59537927):11.63837656):6.382668728,((((2:7.329952047,6:7.329952047):14.30440776,((4:12.44072749,3:12.4407275):4.342134962,5:16.78286246):4.851497346):28.40493575,(((31:36.50240655,117:36.50240654):4.696660198,(((((((((((83:1.501468286,99:1.501468286):1.166148514,82:2.6676168):0.4919571905,84:3.15957399):3.615682996,(80:4.019891572,97:4.019891572):2.755365414):1.092669217,(90:3.297616858,100:3.297616858):4.570309345):1.052600633,(81:7.045956119,((89:4.58014452,91:4.58014453):1.678355193,93:6.258499724):0.7874563952):1.874570727):2.231414067,92:11.15194091):2.674248245,94:13.82618916):4.61849797,(((85:4.352055041,96:4.352055041):1.100149478,86:5.452204529):5.557506922,(87:7.763077077,95:7.763077077):3.246634383):7.434975668):8.288894353,(88:13.83949171,98:13.83949171):12.89408977):8.857572573,(((36:17.87386173,(((32:5.97896114,35:5.97896115):3.67139528,34:9.650356431):2.705841765,33:12.3561982):5.51766353):7.374725034,((101:7.47957014,102:7.47957014):8.490608915,(118:12.80961196,119:12.80961196):3.160567097):9.278407705):2.86801982,120:28.11660658):7.474547475):5.607912696):5.157726041,((75:18.57645533,76:18.57645533):5.727369338,77:24.30382466):22.05296813):3.682502761):9.518070556,((((((((7:2.773593116,10:2.773593116):0.8611202805,9:3.634713397):1.251475877,11:4.886189274):2.642696824,8:7.528886098):23.46303308,((((25:12.09188843,(29:10.62810982,(27:6.073342336,28:6.073342346):4.55476747):1.463778609):10.0825184,((((((122:0.6254469899,124:0.6254469899):1.656810797,130:2.282257787):2.877642105,126:5.159899892):4.622358123,128:9.782258015):5.707370255,(123:4.384108723,125:4.384108723):11.10551956):1.950095367,(127:15.23743398,129:15.23743398):2.202289659):4.734683173):1.007192875,30:23.18159971):2.801502253,26:25.98310196):5.008817229):7.569314693,((((38:7.778637104,((40:2.407611597,63:2.407611597):4.338668955,(((43:2.128816281,61:2.128816281):0.7453321266,72:2.874148408):0.9944037456,(50:0.8557126322,74:0.8557126322):3.012839521):2.877728389):1.032356551):1.194231859,44:8.972868953):5.190156675,69:14.16302564):2.988359539,(((((39:5.73136001,56:5.73136001):2.592288212,((((47:3.544147728,42:3.544147728):1.474315103,(64:3.326724624,66:3.326724624):1.691738207):0.7441589245,(54:1.529499781,55:1.529499781):4.233121984):1.233923925,((51:5.610521846,((48:4.322393219,57:4.322393219):0.5448397675,(65:3.368242534,68:3.368242534):1.498990452):0.7432888595):0.8633155549,60:6.473837411):0.522708279):1.327102532):1.643987417,67:9.967635648):0.8181153069,58:10.78575095):1.011013833,(((41:5.823750436,((49:1.034391386,70:1.034391386):2.725475618,59:3.759867004):2.063883432):1.456868854,(52:4.705186136,(53:3.188927452,73:3.188927452):1.516258684):2.575433164):2.465445963,(((45:2.310412403,71:2.310412403):2.792055978,46:5.102468381):2.373575694,62:7.476044075):2.270021178):2.050699525):5.354620398):21.40984871):10.02525261,((162:2.004420166,164:2.004420166):4.196834854,(163:1.653690399,165:1.653690399):4.547564621):42.38523146):8.316862072,((((78:2.470931628,79:2.470931628):37.93721571,(((((((106:10.53991457,110:10.53991457):4.051052453,(108:8.477973513,112:8.477973513):6.112993516):3.518926105,107:18.10989313):1.77955076,105:19.88944389):3.019378398,((103:10.3253743,104:10.3253743):7.489366836,111:17.81474114):5.094081146):3.303008606,109:26.2118309):9.925478856,(121:21.58772168,((((131:7.415638015,132:7.415638005):6.442572263,(139:10.88879221,(146:9.316121463,(134:8.004151994,144:8.004151994):1.311969468):1.572670749):2.969418057):1.579852682,((((((133:2.45309927,143:2.45309927):1.191406424,136:3.644505694):4.883520023,135:8.528025736):1.085235536,138:9.613261263):2.767531698,((141:1.251491241,142:1.251491241):3.392120602,137:4.643611853):7.737181118):2.065533116,145:14.44632609):0.9917368834):3.171799726,140:18.60986269):2.977858991):14.54958808):4.270837583):3.367015587,(((116:11.15445147,115:11.15445147):1.45344572,113:12.6078972):6.270583487,114:18.87848069):24.89668224):8.891642125,(((((149:2.886814977,152:2.886814977):2.94497822,(147:4.086108686,153:4.086108686):1.745684521):1.698910976,((159:4.9645895,157:4.9645895):1.46085051,160:6.42544001):1.105264162):2.300083059,(150:7.403038445,((154:1.461208883,156:1.461208883):3.159255021,158:4.620463905):2.782574531):2.427748796):0.9904295192,(((148:0.9716673808,151:0.9716673808):2.027146921,161:2.998814302):5.424542383,155:8.423356684):2.397860067):41.8455883):4.2365435):2.65401756):6.254362182):25.76527059);
+END;

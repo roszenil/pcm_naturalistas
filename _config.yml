@@ -75,3 +75,5 @@ compress_html:
 liquid:
   error_mode: strict
   strict_filters: true
+
+math: katex
