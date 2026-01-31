@@ -41,7 +41,7 @@ schedule:
       - name: Lunch (por cuenta propia)
         start: "1:00 PM"
         end: "2:00 PM"
-      - name: Panel: Coleciones de campo y manejo de datos
+      - name: Panel-Coleciones de campo y manejo de datos
         start: "2:00 PM"
         end: "3:30 PM"
         location: Herbario y balsa de los sapos
