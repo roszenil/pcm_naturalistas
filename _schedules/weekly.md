@@ -29,9 +29,10 @@ schedule:
       - name: Presentaciones
         start: "9:00 AM"
         end: "10:00 AM"
-      - name: Cadenas de Markov-Mk2
+      - name: Rosana
         start: "10:00 AM"
         end: "11:00 AM"
+        location: Cadenas de Markov
       - name: Cafecito
         start: "11:00 AM"
         end: "11:30 AM"
