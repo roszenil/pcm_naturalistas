@@ -1,6 +1,6 @@
 ---
 name: Dra. Rosana Zenil-Ferguson
-role: Instructor
+role: Instructora
 email: roszenil@uky.edu
 website: https://roszenil.github.io
 photo: mypicsmall.png

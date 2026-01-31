@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Staff
-description: A listing of all the course staff members.
+title: Instructores
+description: Los instructores del Taller en Quito 2026
 ---
 
 ## Instructores
 
-{% assign instructors = site.staffers | where: 'role', 'Instructor' %}
+{% assign instructors = site.staffers | where: 'role', 'Instructora' %}
 {% for staffer in instructors %}
 {{ staffer }}
 {% endfor %}
@@ -14,7 +14,6 @@ description: A listing of all the course staff members.
 {% assign teaching_assistants = site.staffers | where: 'role', 'Teaching Assistant' %}
 {% assign num_teaching_assistants = teaching_assistants | size %}
 {% if num_teaching_assistants != 0 %}
-## Teaching Assistants
 
 {% for staffer in teaching_assistants %}
 {{ staffer }}
