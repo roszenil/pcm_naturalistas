@@ -1,11 +1,10 @@
 ---
-name: Rosana Zenil-Ferguson
+name: Dra. Rosana Zenil-Ferguson
 role: Instructor
 email: roszenil@uky.edu
 website: https://roszenil.github.io
 photo: mypicsmall.png
 meta:
-  Student learning hours: Wednesdays 2:30 - 3:30 pm. Biology Learning Center. JSB Building
+  Profesora Asistente de la Universidad de Kentucky
 ---
 
-[Schedule an appointment](#){: .btn .btn-outline }
