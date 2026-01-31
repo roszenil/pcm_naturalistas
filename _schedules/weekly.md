@@ -79,19 +79,36 @@ schedule:
       - name: Introducción a la diversificación dependiente de estados
         start: "4:00 PM"
         end: "6:00 PM"
-  - name: Thursday
-  - name: Friday
+  - name: Jueves
     events:
-      - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+      - name: Importancia de los Métodos Comparativos
+        start: "9:00 AM"
+        end: "10:00 AM"
+      - name: Cafecito
+        start: "10:00 AM"
+        end: "10:30 AM"
+      - name: Presentación Dra. Ixchel González Ramírez y Dr. Santiago Ramírez-Barahona
+        start: "10:30 AM"
+        end: "11:30 AM"
+        location: Instituto de Biología. UNAM México
+      - name: HiSSE
+        start: "11:30 AM"
+        end: "1:00 PM"
+      - name: Lunch (por cuenta propia)
+        start: "1:00 PM"
+        end: "2:00 PM"
+      - name: Visualización de los resultados de HiSSE
+        start: "2:00 PM"
+        end: "3:30 PM"
+      - name: Cafecito
+        start: "3:30 PM"
+        end: "4:00 PM"
+      - name: Presentaciones rápidas- Incorporando PCMs a nuestra investigación
+        start: "4:00 PM"
+        end: "6:00 PM"
+  - name: Viernes
+    events:
+      - name: Asesorías-Trae tus propios datos
+        start: 10:00 AM
+        end: 3:30 PM
 ---
