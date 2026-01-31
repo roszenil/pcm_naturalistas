@@ -76,9 +76,10 @@ schedule:
       - name: Almuerzo
         start: "1:00 PM"
         end: "2:00 PM"
-      - name: Visualización de los resultados de DEC
+      - name: Vanessa
         start: "2:00 PM"
         end: "3:30 PM"
+        location : Visualización de los resultados de DEC
       - name: Cafecito
         start: "3:30 PM"
         end: "4:00 PM"
