@@ -1,39 +1,29 @@
 ---
 layout: home
-title: Just the Class
+title: Quito, Ecuador 2026
 nav_exclude: true
 permalink: /:path/
 seo:
   type: Course
-  name: Just the Class
+  name: Quito
 ---
 
-# Just the Class
+# Métodos Comparativos para naturalistas
 
-Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. In addition to serving plain web pages and files, it provides a boilerplate for:
+## Un mensaje a los participantes.
 
-- [announcements](announcements.md),
-- a [course calendar](calendar.md),
-- a [staff](staff.md) page,
-- and a weekly [schedule](schedule.md).
+Gracias por asistir a este taller. Mi objetivo es introducirte a un mundo de nuevos métodos que nos permiten entender la biodiversidad.
 
-Just the Class is a template that extends the popular [Just the Docs](https://github.com/just-the-docs/just-the-docs) theme, which provides a robust and thoroughly-tested foundation for your website. Just the Docs include features such as:
+En particular, estoy interesada en presentarte a los métodos comparativos filogenéticos, un área que emergió en los ochentas con el fin de conrastar cómo un caracter ha evolucionado en muchas especies con ancestría común.
 
-- automatic [navigation structure](https://just-the-docs.github.io/just-the-docs/docs/navigation-structure/),
-- instant, full-text [search](https://just-the-docs.github.io/just-the-docs/docs/search/) and page indexing,
-- and a set of [UI components](https://just-the-docs.github.io/just-the-docs/docs/ui-components) and authoring [utilities](https://just-the-docs.github.io/just-the-docs/docs/utilities).
+Para utilizar estos modelos es necesario que como biólogos, empecemos a comprender conceptos complejos de estadística, probabilidad y desarrollo de software. La razón de por qué necesitamos estos conceptos es porque los árboles filogenéticos tienen una estructura compleja. Es decir, la ancestría en común de las especies genera una dependencia entre los caracteres de los que queremos aprender su historia.
 
-## Getting Started
+Muchos biólogos sienten miedo (o pánico) a las matemáticas o estadística. Esto es normal, yo misma le tengo miedo a las serpientes! Con la práctica, uno se da cuenta que lo que parece difícil al principio se vuelve simple, con suficiente exposición uno puede tocar a la serpiente, y escribir una variable aleatoria. Este es un mundo de oportunidades, especialmente para los investigadores que en su día a día conocen profundamente a las especies que estudian. Las preguntas se van revelando cuando las matemáticas se alinean.  
 
-Getting started with Just the Class is simple.
+Espero que encuentren estos recursos valiosos. Mi equipo de trabajo Edison, Nicolás y Rommy Vanessa and hecho un gran esfuerzo en crear estos materiales y en traer este taller a su casa. 
 
-1. Create a [new repository based on Just the Class](https://github.com/kevinlin1/just-the-class/generate).
-1. Update `_config.yml` and `README.md` with your course information. [Be sure to update the url and baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/).
-1. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). Your course website is now live!
-1. Edit and create `.md` [Markdown files](https://guides.github.com/features/mastering-markdown/) to add more content pages.
+Saludos cordiales,
 
-Just the Class has been used by instructors at Stanford University ([CS 161](https://stanford-cs161.github.io/winter2021/)), UC Berkeley ([Data 100](https://ds100.org/fa21/)), UC Santa Barbara ([CSW8](https://ucsb-csw8.github.io/s22/)), Northeastern University ([CS4530/5500](https://neu-se.github.io/CS4530-CS5500-Spring-2021/)), and Carnegie Mellon University ([17-450/17-950](https://cmu-crafting-software.github.io/)). Share your course website and find more examples in the [show and tell discussion](https://github.com/kevinlin1/just-the-class/discussions/categories/show-and-tell)!
+- Rosana Zenil-Ferguson
 
-### Local development environment
-
-Just the Class requires no special Jekyll plugins and can run on GitHub Pages' standard Jekyll compiler. To setup a local development environment, clone your template repository and follow the GitHub Docs on [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
+![Reconstrucción ancestral de la evolución de las anteras poricidales. Russell, Zenil-Ferguson, et al. 2025](slides/poricidal.png)

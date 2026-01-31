@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: PCM
+title: Quito, Ecuador 2026
 tagline: Métodos Comparativos Filogenéticos para Naturalistas
 description: Materials para talleres en Español
 author: Rosana Zenil-Ferguson
