@@ -1,9 +1,9 @@
 ---
-title: Week 1
+title: Martes
 ---
 
-Aug 26
-: **Lecture**{: .label .label-purple }Introduction
+Enero 3 
+: **Lecture**{: .label .label-rosana }Introduction
   : [Slides](https://roszenil.github.io/pcm_naturalistas/practicals/intro_ctmc.html)
 : **Syllabus**{: .label .label-red }
   : [pdf](https://roszenil.github.io/BIO508-Evolution/reads/BIO508_Syllabus_Fall2025.pdf)
