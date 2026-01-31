@@ -26,32 +26,35 @@ schedule:
 
   - name: Martes
     events:
-      - name: Presentaciones
+      - name: Todos
         start: "9:00 AM"
         end: "10:00 AM"
+        location: Presentaciones
       - name: Rosana
         start: "10:00 AM"
         end: "11:00 AM"
-        location: Cadenas de Markov
+        location: Introducción a las cadenas de Markov
       - name: Cafecito
         start: "11:00 AM"
         end: "11:30 AM"
-      - name: Introducción a RevBayes
+      - name: Rosana
         start: "11:30 AM"
         end: "1:00 PM"
-      - name: Lunch (por cuenta propia)
+        location: Introducción a RevBayes
+      - name: Almuerzo
         start: "1:00 PM"
         end: "2:00 PM"
-      - name: Panel-Coleciones de campo y manejo de datos
+      - name: Invitados
         start: "2:00 PM"
         end: "3:30 PM"
-        location: Herbario y balsa de los sapos
+        location: Panel-Coleciones de campo y manejo de datos
       - name: Cafecito
         start: "3:30 PM"
         end: "4:00 PM"
-      - name: Introducción a la estadística Bayesiana
+      - name: Rosana
         start: "4:00 PM"
         end: "6:00 PM"
+        location: Introducción a la estadística Bayesiana
 
   - name: Miércoles
     events:
@@ -68,7 +71,7 @@ schedule:
         start: "11:30 AM"
         end: "1:00 PM"
         location: Creadora de RevBayes
-      - name: Lunch (por cuenta propia)
+      - name: Almuerzo
         start: "1:00 PM"
         end: "2:00 PM"
       - name: Visualización de los resultados de DEC
@@ -95,7 +98,7 @@ schedule:
       - name: HiSSE
         start: "11:30 AM"
         end: "1:00 PM"
-      - name: Lunch (por cuenta propia)
+      - name: Almuerzo
         start: "1:00 PM"
         end: "2:00 PM"
       - name: Visualización de los resultados de HiSSE

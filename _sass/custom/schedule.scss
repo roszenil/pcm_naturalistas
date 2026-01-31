@@ -97,7 +97,7 @@
     }
 
     &.cafecito {
-      background-color: $purple-100;
+      background-color: #927F3A;
     }
 
     &.office-hours {
@@ -108,5 +108,28 @@
       background-color: #bc4b51;
      }
 
+    &.almuerzo {
+      background-color: #755c57;
+     }
+
+    &.nicolas {
+      background-color: #8cb369;
+     }
+
+    &.edison {
+      background-color: #5B8e7d;
+     }
+
+    &.vanessa {
+      background-color: #f4a259;
+     }
+
+     &.invitados {
+      background-color: #f4e285;
+     }
+
+     &.todos {
+      background-color: #5b8e7d;
+     }
   }
 }
