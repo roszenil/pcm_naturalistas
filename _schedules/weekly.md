@@ -58,12 +58,14 @@ schedule:
 
   - name: Miércoles
     events:
-      - name: Visualización resultados Mk2
+      - name: Nicolás
         start: "9:00 AM"
         end: "10:00 AM"
-      - name: Introducción a DEC
+        location: Visualización resultados Mk2
+      - name: Vanessa
         start: "10:00 AM"
         end: "11:00 AM"
+        location: Introducción al modelo DEC
       - name: Cafecito
         start: "11:00 AM"
         end: "11:30 AM"
