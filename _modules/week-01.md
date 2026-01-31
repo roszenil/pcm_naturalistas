@@ -3,7 +3,7 @@ title: Martes
 ---
 
 Enero 3 
-: **Rosana**{: .label .label-rosana }Introduction
+: ****{: .label .label-rosana }Introduction
   : [Slides](https://roszenil.github.io/pcm_naturalistas/practicals/intro_ctmc.html)
 : **Syllabus**{: .label .label-red }
   : [pdf](https://roszenil.github.io/BIO508-Evolution/reads/BIO508_Syllabus_Fall2025.pdf)
