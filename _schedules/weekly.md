@@ -41,12 +41,12 @@ schedule:
       - name: Lunch (por cuenta propia)
         start: "1:00 PM"
         end: "2:00 PM"
-      - name: Panel: Colleciones de Campo y Manejo de Datos
+      - name: Panel: Coleciones de campo y manejo de datos
         start: "2:00 PM"
         end: "3:30 PM"
-        location: Herbario,balsa de los sapos
+        location: "Herbario,balsa de los sapos"
       - name: Cafecito
-        start: "3:30 AM"
+        start: "3:30 PM"
         end: "4:00 PM"
       - name: Introducción a la estadística Bayesiana
         start: "4:00 PM"
