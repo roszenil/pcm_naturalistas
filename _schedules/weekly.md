@@ -69,10 +69,10 @@ schedule:
       - name: Cafecito
         start: "11:00 AM"
         end: "11:30 AM"
-      - name: Presentación Dra. Tracy Heath
+      - name: Invitados
         start: "11:30 AM"
         end: "1:00 PM"
-        location: Creadora de RevBayes
+        location: Dra. Tracy Heath - Creadora de RevBayes
       - name: Almuerzo
         start: "1:00 PM"
         end: "2:00 PM"
@@ -82,39 +82,45 @@ schedule:
       - name: Cafecito
         start: "3:30 PM"
         end: "4:00 PM"
-      - name: Introducción a la diversificación dependiente de estados
+      - name: Rosana
         start: "4:00 PM"
         end: "6:00 PM"
+        location: Introducción a la diversificación dependiente de estados
   - name: Jueves
     events:
-      - name: Importancia de los Métodos Comparativos
+      - name: Todos
         start: "9:00 AM"
         end: "10:00 AM"
+        location: Importancia de los Métodos Comparativos
       - name: Cafecito
         start: "10:00 AM"
         end: "10:30 AM"
-      - name: Presentación Dra. Ixchel González Ramírez y Dr. Santiago Ramírez-Barahona
+      - name: Invitados
         start: "10:30 AM"
         end: "11:30 AM"
-        location: Instituto de Biología. UNAM México
-      - name: HiSSE
+        location:  Dra. Ixchel González Ramírez y Dr. Santiago Ramírez-Barahona - Instituto de Biología. UNAM México
+      - name: Nicolás
         start: "11:30 AM"
         end: "1:00 PM"
+        location: HiSSE
       - name: Almuerzo
         start: "1:00 PM"
         end: "2:00 PM"
-      - name: Visualización de los resultados de HiSSE
+      - name: Edison
         start: "2:00 PM"
         end: "3:30 PM"
+        location: Visualización de los resultados de HiSSE
       - name: Cafecito
         start: "3:30 PM"
         end: "4:00 PM"
-      - name: Presentaciones rápidas- Incorporando PCMs a nuestra investigación
+      - name: Todos
         start: "4:00 PM"
         end: "6:00 PM"
+        location: Presentaciones rápidas- Incorporando PCMs a nuestra investigación
   - name: Viernes
     events:
-      - name: Asesorías-Trae tus propios datos
+      - name: Todos
         start: 10:00 AM
         end: 3:30 PM
+        location: Asesorías-Trae tus propios datos
 ---
