@@ -15,4 +15,5 @@ description: >-
 
 ## Taller: Métodos comparativos para naturalistas. Quito, Ecuador
 
-![Anuncio](slides/announcement_workshop.jpg){ width=50% }
+<img src="slides/announcement_workshop.jpg" width="400">
+

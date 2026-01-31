@@ -20,8 +20,8 @@ timeline:
   - '5:30 PM'
   - '6:00 PM'
 schedule:
-  - name: Lunes
-  - name: Martes
+  - name: Monday
+  - name: Tuesday
       events:
       - name: Presentaciones
         start: 9:00 AM
