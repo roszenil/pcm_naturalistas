@@ -20,20 +20,24 @@ timeline:
   - '5:30 PM'
   - '6:00 PM'
 schedule:
-  - name: Monday
+schedule:
+  - name: Lunes
+    events: []
+
   - name: Tuesday
-      events:
+    events:
       - name: Presentaciones
-        start: 9:00 AM
-        end: 10:00 AM
+        start: "9:00 AM"
+        end: "10:00 AM"
       - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
+        start: "11:30 AM"
+        end: "12:30 PM"
         location: 310 Soda
       - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
+        start: "12:30 PM"
+        end: "2:00 PM"
         location: 271 Soda
+
   - name: Wednesday
     events:
       - name: Lecture
