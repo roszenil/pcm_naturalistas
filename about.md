@@ -1,14 +1,11 @@
 ---
 layout: page
-title: About
+title: Información
 description: >-
     Materiales de métodos comparativos en español
 ---
 
-# Home
-{:.no_toc}
-
-## Table of contents
+## Contenido
 {: .no_toc .text-delta }
 
 1. TOC
@@ -18,4 +15,4 @@ description: >-
 
 ## Taller: Métodos comparativos para naturalistas. Quito, Ecuador
 
-![Anuncio](slides/announcement_workshop.jpg)
+![Anuncio](slides/announcement_workshop.jpg){ width=50% }
