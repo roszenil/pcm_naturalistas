@@ -15,9 +15,9 @@ Para este tutorial vamos a ajustar un modelo para un caracter discreto. El carac
 
 103 taxones en una filogenia ultramétrica
 
- + Lista de especies con su polinización - [Datos](files/poliniza_datos.csv)
+ + Lista de especies con su polinización - [Datos](downloads/poliniza_datos.csv)
  
- + Árbol filogenético- [Filogenia](files/poliniza_arbol.tre)
+ + Árbol filogenético- [Filogenia](downloads/poliniza_arbol.tre)
  
  
 ## El modelo
@@ -68,8 +68,8 @@ Vamos a implementar este modelo que es una CMTC como lo describimos en la secci�
    Utilizaremos la distribución Gama como *a priori* para los parámetros de transición. 
    
    ```
-   shape_pr := 0.5
-   rate_pr = observed_phylogeny.treeLength()/50
+   shape_pr <- 0.5
+   rate_pr := observed_phylogeny.treeLength()/50
    
    q_01 ~ dnGamma(shape=shape_pr, rate=rate_pr) ### Insecto a Viento
    q_10 ~ dnGamma(shape=shape_pr, rate=rate_pr) ### Viento a Insecto
