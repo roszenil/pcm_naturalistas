@@ -6,7 +6,7 @@ title: Martes
 : **Presentaciones**{: .label .label-green }
   : [Link](https://roszenil.github.io/pcm_naturalistas/practicals/intro_ctmc.html)
   
-: **Clase **{: .label .label-red }Introducción a las cadenas de Markov
+: **Clase**{: .label .label-red }Introducción a las cadenas de Markov
   : [Diapositivas](https://roszenil.github.io/pcm_naturalistas/slides/ctmc_introv2.pdf)
   
   : [Notas](https://roszenil.github.io/pcm_naturalistas/practicals/intro_ctmc.html)
