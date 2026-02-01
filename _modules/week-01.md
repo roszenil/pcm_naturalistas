@@ -2,16 +2,13 @@
 title: Martes
 ---
 
-Enero 3 
-: **Rosana**{: .label .label-rosana }Introduction
-  : [Slides](https://roszenil.github.io/pcm_naturalistas/practicals/intro_ctmc.html)
-: **Syllabus**{: .label .label-red }
-  : [pdf](https://roszenil.github.io/BIO508-Evolution/reads/BIO508_Syllabus_Fall2025.pdf)
-: **Practical**{: .label .label-orange }
+03/01/2026
+: **Presentaciones**{: .label .label-green }
+  : [Link](https://roszenil.github.io/pcm_naturalistas/practicals/intro_ctmc.html)
+: **Clase **{: .label .label-red }Introducción a las cadenas de Markov
+  : [Diapositivas](https://roszenil.github.io/pcm_naturalistas/slides/ctmc_introv2.pdf)
+  : [Notas](https://roszenil.github.io/pcm_naturalistas/practicals/intro_ctmc.html)
+: **Softaware**{: .label .label-blue }
   : [Software installation](../practicals/software)
-
-Aug 28
-: **Lecture**{: .label .label-purple }Tree-thinking
-  : [Slides](https://roszenil.github.io/BIO508-Evolution/slides/Lecture_1_post.pdf)
-: **Reading**{: .label .label-blue }Tree-thinking
-    : [Omland 2017 ](https://roszenil.github.io/BIO508-Evolution/reads/Omland_2017_InterpretationPhylo.pdf)
+: **Revbayes**{: .label .label-blue }
+  : [Software installation](../practicals/ctmc_revbayes)
