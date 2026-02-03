@@ -32,8 +32,8 @@ Vamos a implementar este modelo que es una CMTC como lo describimos en la secci�
  
  1. Empecemos con el número de estados y dos vectores ``moves`` guarda toda las propuestas para mover los parámetros. El vector ``monitors`` guarda las inferencia resultante del MCMC, principalmente la distribución posterior de todos los parámetros.
     
-    + Baja el archivo del árbol filogenético [aquí](https://github.com/ixchelgzlzr/filo_bayes_UNAM/blob/main/docs/discrete/files/poliniza_arbol.tre)
-    + Baja el achivo con los datos [aquí](https://github.com/ixchelgzlzr/filo_bayes_UNAM/blob/main/docs/discrete/files/poliniza_datos.csv)
+    + Baja el archivo del árbol filogenético [aquí](downloads/poliniza_arbol.tre)
+    + Baja el achivo con los datos [aquí](downloads/poliniza_datos.csv)
  
     ```
     # Numero de estados
@@ -215,4 +215,4 @@ Si observamos bien, durante la codificación del modelo también especificamos l
 
 ### Código Revbayes
 
-El código completo lo puedes encontrar [aquí](files/Mk2.Rev) 
+El código completo lo puedes encontrar [aquí](downloads/Mk2.Rev) 
