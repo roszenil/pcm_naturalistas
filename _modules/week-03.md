@@ -3,21 +3,18 @@ title: Jueves
 ---
 
 05/01/2026
-: **Rstudio**{: .label .label-blue }
-  : [Resultados Mk2]()
+: **Discusión**{: .label .label-red}
+  : Importancia de los métodos comparativos
   
-: **Clase**{: .label .label-red }Introducción a los modelos biogeográficos
-  : [Diapositivas]()
+: **Invitados**{: .label .label-yellow }
+  : Dra. Ixchel González Ramírez y Dr. Santiago Ramírez-Barahona. UNAM Mêxico
   
-: **RevBayes**{: .label .label-blue } Modelo Dispersión, Extirpación y Cladogéneis 
-  : [DEC]()
+: **RevBayes**{: .label .label-blue } Modelo de diversificación dependiente de estados escondidos 
+  : [HiSSE]()
   
- : **Invitados**{: .label .label-yellow }
-  : Dra. Tracy Heath. Profesora Asociada de la Universidad Estatal de Iowa
-    
 : **RStudio**{: .label .label-blue }
-  : [Resultados DEC]()
+  : [Visualización HiSSE]()
 
-: **Clase**{: .label .label-red }Introducción a la diversificación dependiente de estados
-  : [Diapositivas](https://roszenil.github.io/pcm_naturalistas/slides/Inferencia_bayesiana_slides.pdf)
+: **Presentaciones Rápidas**{: .label .label-red }
+  : Incorporando PCMs a nuestra investigación
   

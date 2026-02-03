@@ -1,14 +1,6 @@
 ---
 timeline:
   - "9:00 AM"
-  - "10:00 AM"
-  - "11:00 AM"
-  - "12:00 PM"
-  - "1:00 PM"
-  - "2:00 PM"
-  - "3:00 PM"
-  - "4:00 PM"
-  - "5:00 PM"
   - "6:00 PM"
   
 schedule:
@@ -80,7 +72,7 @@ schedule:
         location: Introducción a la diversificación dependiente de estados
   - name: Jueves
     events:
-      - name: Todos
+      - name: Edison
         start: "9:00 AM"
         end: "10:00 AM"
         location: Importancia de los Métodos Comparativos
