@@ -4,10 +4,10 @@ title: Miércoles
 
 04/01/2026
 : **Rstudio**{: .label .label-blue }
-  : [Resultados Mk2](practicals/mk2_visualizacion)
+  : [Resultados Mk2](./practicals/mk2_visualizacion)
   
 : **Clase**{: .label .label-red }Introducción a los modelos biogeográficos
-  : [Diapositivas](https://roszenil.github.io/pcm_naturalistas/slides/DEC_introduction.html)
+  : [Diapositivas](https://roszenil.github.io/pcm_naturalistas/slides/DEC_introduccion.html)
   
 : **RevBayes**{: .label .label-blue } Modelo Dispersión, Extirpación y Cladogéneis 
   : [DEC](https://roszenil.github.io/pcm_naturalistas/practicals/DEC_tutorial.html)
