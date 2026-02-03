@@ -10,10 +10,11 @@ title: Martes
   : [Software installation](../practicals/software)
   
 : **Clase**{: .label .label-red }Introducción a las cadenas de Markov
-  : [Diapositivas](https://roszenil.github.io/pcm_naturalistas/slides/ctmc_intro-espanol.pdf)
+  : [Diapositivas](https://roszenil.github.io/pcm_naturalistas/slides/ctmc_intro_espanol.pdf)
   
  : 
-  : [Notas](https://roszenil.github.io/pcm_naturalistas/practicals/intro_ctmc.html)  
+  : [Notas](https://roszenil.github.io/pcm_naturalistas/practicals/intro_ctmc_espanol.html)  
+
 : **Clase**{: .label .label-red }Introducción a la estadística Bayesiana
   : [Diapositivas](https://roszenil.github.io/pcm_naturalistas/slides/Inferencia_bayesiana_slides.pdf)
   
