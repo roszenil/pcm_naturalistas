@@ -1,0 +1,134 @@
+
+# install.packages("devtools")
+# install.packages("coda")
+# install.packages("phytools")
+# install.packages ("ggplot2")
+# 
+# if (!require("BiocManager", quietly = TRUE))
+# install.packages("BiocManager")
+# BiocManager::install("treeio")
+# 
+# 
+# if (!require("BiocManager", quietly = TRUE))
+#   install.packages("BiocManager")
+# BiocManager::install("ggtree")
+# 
+# devtools::install_github("revbayes/RevGadgets@stochastic_map",force=TRUE)
+
+library(coda)
+library(RevGadgets)
+library(phytools)
+library(ggplot2)
+
+setwd("./mk2/output/")
+
+#library coda
+mcmc_run1 <- readTrace(path ="mk2_polinizador_run_1.log", burnin = 0.1)
+mcmc_trace <- as.mcmc(mcmc_run1[[1]])
+traceplot(mcmc_trace)
+effectiveSize(mcmc_trace)
+
+## ggplot2
+mcmc_run1 <- readTrace(path ="mk2_polinizador_run_1.log", burnin = 0.1)
+mcmc_run1<-data.frame(mcmc_run1)
+mcmc_run1<- cbind(mcmc_run1,run=rep("run 1",length(mcmc_run1$Iteration)))
+
+mcmc_run2 <- readTrace(path ="mk2_polinizador_run_2.log", burnin = 0.1)
+mcmc_run2<-data.frame(mcmc_run2)
+mcmc_run2<- cbind(mcmc_run2,run=rep("run 2",length(mcmc_run2$Iteration)))
+
+mcmc_table<-rbind(mcmc_run1,mcmc_run2)
+
+trace_plot<- ggplot(mcmc_table, aes(x=Iteration,y=Posterior,group=run))+
+  geom_line(aes(color=run))+
+  theme_classic()
+
+trace_plot
+
+### revgadgets
+mcmc_run1 <- readTrace(path ="mk2_polinizador_run_1.log", burnin = 0.1)
+summarizeTrace(trace = mcmc_run1, vars =c("q_01","q_10","root_frequencies[1]","root_frequencies[2]"))
+
+plotTrace(trace = mcmc_run1, vars = c("q_01","q_10"))[[1]]
+
+plotTrace(trace = mcmc_run1, vars = c("root_frequencies[1]","root_frequencies[2]"))[[1]]
+
+##ggplot2
+
+traitcols<-c("#7678ED","#F35B04")
+
+mk2 <- read.table("mk2_polinizador_run_1.log", header=TRUE)
+mk2 <- mk2[-seq(1,5000,1),] # burn in
+
+transition_rates <- data.frame(dens=c(mk2$q_01,mk2$q_10),
+                               rate=rep(c("q_01","q_10"),
+                               each=length(mk2$q_01)))
+
+violin_transitions<- ggplot(transition_rates,aes(x=rate,y=dens, fill=rate))+
+  geom_violin(trim=FALSE, quantiles = c(0.025, 0.975), quantile.linetype = 1) +
+  labs(title="Transition rates")+
+  scale_fill_manual( values = traitcols)+
+  xlab("Transition type")+
+  ylab("Rate")+
+  scale_x_discrete(labels = c("q_01" = expression(italic(q)["0,1"]),
+                              "q_10" = expression(italic(q)["1,0"]))) + 
+  theme_classic() +
+  theme(legend.position = "none")
+
+violin_transitions
+
+D <- data.frame(dens=(mk2$q_01-mk2$q_10),
+                rate=rep(c("Difference"),
+                         length(mk2$q_01)))
+
+violin_difference<- ggplot(D,aes(x=rate,y=dens, fill=rate))+
+  geom_violin(trim=FALSE, quantiles = c(0.025, 0.975), quantile.linetype = 1) +
+  labs(title="Hypothesis testing")+
+  scale_fill_manual( values = "hotpink")+
+  xlab("Test Statistic")+
+  ylab("Difference")+
+  geom_hline(yintercept = 0,linetype="dashed",lwd=1)+
+  theme_classic() +
+  theme(legend.position = "none")
+
+violin_difference
+
+diff_quantile <- quantile(D$dens, probs=c(0.025,0.975))
+diff_quantile
+
+## plotting asr and stochastic maps with revgadgets and ggtree
+
+anc_states <- processAncStates(path ="asr_mk2.tree",state_labels=c("0"="insect","1"="wind"))
+plotAncStatesMAP(t = anc_states, tree_layout="rectangular",
+                 state_transparency = 0.5,
+                 node_size = c(0.1, 5),
+                 tip_labels_size = 2,
+                 tip_states_size=2)
+                 node_color=c("red","blue"))
+
+plotAncStatesPie(t=  anc_states,
+                 state_transparency = 0.8,
+                 node_labels_size=  5,
+                 pie_colors=c("red","blue")) 
+
+mycolors= setNames(c("red","blue"),c("0","1"))
+file <- "../data/poliniza_arbol.nex" #Has to be the nexus file as given by RevBayes
+pol.tree <- readTrees(paths = file)[[1]][[1]]
+
+mapsfile <- "stochmap_mk2_polinizador_run_1.log" 
+
+stoch_map_df <- processStochMaps(pol.tree,
+                                 mapsfile, 
+                                 state_labels=c("Insecto" = "0",
+                                                "Viento" = "1"),
+                                 burnin = 0.1)
+
+mycolors= setNames(c("red","blue"),c("Insecto","Viento"))
+
+plotStochMaps(tree=pol.tree,
+              maps=stoch_map_df, 
+              color_by="MAP",
+              colors = mycolors,
+              tip_labels_size=1, 
+              tree_layout = "rectangular",
+              line_width = 0.8)

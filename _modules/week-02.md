@@ -4,7 +4,7 @@ title: Miércoles
 
 04/01/2026
 : **Rstudio**{: .label .label-blue }
-  : [Resultados Mk2]()
+  : [Resultados Mk2](practicals/mk2_visualizacion)
   
 : **Clase**{: .label .label-red }Introducción a los modelos biogeográficos
   : [Diapositivas]()
