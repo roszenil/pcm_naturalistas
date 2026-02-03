@@ -15,9 +15,6 @@ timeline:
   - "6:00 PM"
   
 schedule:
-  - name: Lunes
-    events: []
-
   - name: Martes
     events:
       - name: Todos
