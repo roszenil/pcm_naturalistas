@@ -7,17 +7,17 @@ title: Miércoles
   : [Resultados Mk2](practicals/mk2_visualizacion)
   
 : **Clase**{: .label .label-red }Introducción a los modelos biogeográficos
-  : [Diapositivas]()
+  : [Diapositivas](https://roszenil.github.io/pcm_naturalistas/slides/DEC_introduction.html)
   
 : **RevBayes**{: .label .label-blue } Modelo Dispersión, Extirpación y Cladogéneis 
-  : [DEC]()
+  : [DEC](https://roszenil.github.io/pcm_naturalistas/practicals/DEC_tutorial.html)
   
  : **Invitados**{: .label .label-yellow }
   : Dra. Tracy Heath. Profesora Asociada de la Universidad Estatal de Iowa
     
 : **RStudio**{: .label .label-blue }
-  : [Resultados DEC]()
+  : Resultados DEC (continuación)
 
 : **Clase**{: .label .label-red }Introducción a la diversificación dependiente de estados
-  : [Diapositivas](https://roszenil.github.io/pcm_naturalistas/slides/Inferencia_bayesiana_slides.pdf)
+  : [Diapositivas]()
   

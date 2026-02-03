@@ -1,0 +1,107 @@
+#NEXUS
+
+Begin data;
+Dimensions ntax=97 nchar=4;
+Format datatype=Standard missing=? gap=- labels="01";
+Matrix
+                                  [ABCD]
+    Liolaemus_abaucan              1001
+    Liolaemus_albiceps             1000
+    Liolaemus_andinus              1000
+    Liolaemus_annectens            1000
+    Liolaemus_anomalus             0001
+    Liolaemus_archeforus           0010
+    Liolaemus_audituvelatus        1000
+    Liolaemus_avilai               0010
+    Liolaemus_azarai               0001
+    Liolaemus_baguali              0010
+    Liolaemus_boulengeri           0010
+    Liolaemus_calchaqui            1000
+    Liolaemus_canqueli             0010
+    Liolaemus_chacabucoense        0010
+    Liolaemus_chacoensis           0001
+    Liolaemus_chehuachekenk        0010
+    Liolaemus_crepuscularis        1000
+    Liolaemus_cuyanus              0001
+    Liolaemus_cuyumhue             0010
+    Liolaemus_darwinii             0001
+    Liolaemus_donosobarrosi        0001
+    Liolaemus_dorbignyi            1000
+    Liolaemus_eleodori             0100
+    Liolaemus_escarchadosi         0010
+    Liolaemus_espinozai            1000
+    Liolaemus_etheridgei           1000
+    Liolaemus_fabiani              1000
+    Liolaemus_famatinae            1000
+    Liolaemus_fitzingerii          0010
+    Liolaemus_gallardoi            0010
+    Liolaemus_goetschi             0010
+    Liolaemus_grosseorum           0011
+    Liolaemus_hatcheri             0010
+    Liolaemus_hermannunezi         0100
+    Liolaemus_huacahuasicus        1000
+    Liolaemus_inacayali            0010
+    Liolaemus_insolitus            1000
+    Liolaemus_irregularis          1000
+    Liolaemus_josei                0101
+    Liolaemus_kingii               0010
+    Liolaemus_kolengh              0010
+    Liolaemus_koslowskyi           0001
+    Liolaemus_laurenti             0001
+    Liolaemus_lavillai             1000
+    Liolaemus_lentus               0001
+    Liolaemus_lineomaculatus       0010
+    Liolaemus_loboi                0010
+    Liolaemus_lutzae               0001
+    Liolaemus_magellanicus         0010
+    Liolaemus_mapuche              0010
+    Liolaemus_martorii             0010
+    Liolaemus_melanogaster         1000
+    Liolaemus_melanops             0010
+    Liolaemus_molinai              1000
+    Liolaemus_morandae             0010
+    Liolaemus_morenoi              0010
+    Liolaemus_multicolor           1000 
+    Liolaemus_multimaculatus       0011
+    Liolaemus_occipitalis          0001
+    Liolaemus_olongasta            0001
+    Liolaemus_orientalis           1000
+    Liolaemus_ornatus              1000
+    Liolaemus_ortizii              1000
+    Liolaemus_poconchilensis       1000
+    Liolaemus_poecilochromis       1000
+    Liolaemus_polystictus          1000
+    Liolaemus_pseudoanomalus       0001
+    Liolaemus_puelche              0001
+    Liolaemus_quilmes              1001
+    Liolaemus_riojanus             0001
+    Liolaemus_robustus             1000
+    Liolaemus_rothi                0010
+    Liolaemus_ruibali              0100
+    Liolaemus_sagei                0010
+    Liolaemus_salinicola           0001
+    Liolaemus_sarmientoi           0010
+    Liolaemus_scapularis           1001
+    Liolaemus_senguer              0010
+    Liolaemus_signifer             1000
+    Liolaemus_silvanae             0010
+    Liolaemus_sitesi               0010
+    Liolaemus_somuncurae           0010
+    Liolaemus_stolzmanni           1000
+    Liolaemus_tari                 0010
+    Liolaemus_tehuelche            0010
+    Liolaemus_telsen               0010
+    Liolaemus_thomasi              1000
+    Liolaemus_torresi              1000
+    Liolaemus_tristis              0010
+    Liolaemus_tromen               0100
+    Liolaemus_uptoni               0010
+    Liolaemus_uspallatensis        0100
+    Liolaemus_vallecurensis        0100
+    Liolaemus_wiegmannii           0001
+    Liolaemus_williamsi            1000
+    Liolaemus_xanthoviridis        0010
+    Liolaemus_zullyae              0010
+
+;
+End;
