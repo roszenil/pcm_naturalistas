@@ -355,15 +355,15 @@ display: none;
 </div>
 
 
-<div id="introducción-al-modelo-dec" class="section level1">
-<h1>Introducción al modelo DEC</h1>
+<div id="introducción-al-modelo-dec" class="section level2">
+<h2>Introducción al modelo DEC</h2>
 <p>Este tutorial fue traducido y modificado por Vanessa Parra a partir
 del tutorial “Introduction to phylogenetic biogeography with the DEC
 model” disponible <a href="https://revbayes.github.io/tutorials/biogeo/biogeo_intro">aquí</a>
 y escrito por <strong>Michael J. Landis</strong> y <strong>Sarah K.
 Swiston</strong></p>
-<div id="introducción" class="section level2">
-<h2>Introducción</h2>
+<div id="introducción" class="section level3">
+<h3>Introducción</h3>
 <p>Muchos procesos evolutivos fundamentales, como adaptación,
 especiación, y extinción, ocurren en un contexto espacial. Cuando el
 componente histórico de dicho contexto espacial no puede observarse
@@ -384,10 +384,9 @@ siendo manejables para la inferencia.</p>
 estos modelos y, posteriormente, describe como realizar inferencia
 bayesiana de biogeografía histórica utilizando un modelo de
 Dispersión–Extinción–Cladogénesis (DEC) en RevBayes.</p>
-</div>
-<div id="descripción-general-del-modelo-de-dispersiónextincióncladogénesis-dec" class="section level2">
-<h2>Descripción general del modelo de Dispersión–Extinción–Cladogénesis
-(DEC)</h2>
+<div id="descripción-general-del-modelo-de-dispersiónextincióncladogénesis-dec" class="section level4">
+<h4>Descripción general del modelo de Dispersión–Extinción–Cladogénesis
+(DEC)</h4>
 <p>El proceso de Dispersión–Extirpación–Cladogénesis (DEC) modela la
 evolución de los rangos geográficos como un proceso de valores discretos
 <a href="#ree2005">Ree et al. 2005; Ree y Smith 2008</a>(#ree2008).
@@ -416,7 +415,10 @@ Dispersión por salto (o especiación fundadora): un linaje hijo hereda el
 rango ancestral mientras que el otro hereda una nueva área
 desocupada.</div>
 </div>
-<p>##Caracteres de rango discreto</p>
+</div>
+</div>
+<div id="caracteres-de-rango-discreto" class="section level3">
+<h3>Caracteres de rango discreto</h3>
 <p>DEC trata los rangos de taxones como datos de presencia-ausencia, es
 decir, el rango es el conjunto de áreas discretas (pre-definidas) donde
 una especie se observa. Por ejemplo, digamos que hay tres áreas, A, B y
@@ -494,7 +496,9 @@ rangos geográficos en un análisis con las áreas A, B y C.</p>
 en las discusiones, pero es útil tenerla en cuenta al considerar el
 número total de posibles distribuciones para una especie y al procesar
 los resultados.</p>
-<p>##Evolución anagenética del rango</p>
+</div>
+<div id="evolución-anagenética-del-rango" class="section level3">
+<h3>Evolución anagenética del rango</h3>
 <p>En el contexto del modelo DEC, anagénesis se refiere a la evolución
 del rango geográfico que ocurre entre eventos de especiación, a lo largo
 de las ramas del linaje. Existen dos tipos de eventos anagenéticos:
@@ -523,17 +527,20 @@ puede parametrizarse para reflejar las clases permitidas de eventos de
 evolución de rango con parámetros biológicamente significativos. Para
 tres áreas,las tasas incluidas en la matriz de tasas anagenéticas
 son:</p>
-<table style="width:100%;">
+<p><strong>Instantaneous rate matrix (</strong><span class="math inline">\(Q\)</span>) for three areas. States are ordered as
+<span class="math inline">\(\varnothing\)</span>, A, B, C, AB, AC, BC,
+ABC.</p>
+<table>
 <colgroup>
-<col width="17%" />
-<col width="8%" />
-<col width="8%" />
-<col width="8%" />
-<col width="8%" />
-<col width="11%" />
-<col width="11%" />
-<col width="11%" />
-<col width="14%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="27%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -551,7 +558,7 @@ son:</p>
 <tbody>
 <tr class="odd">
 <td align="right">∅</td>
-<td align="right">0</td>
+<td align="right">−</td>
 <td align="right">0</td>
 <td align="right">0</td>
 <td align="right">0</td>
@@ -563,7 +570,7 @@ son:</p>
 <tr class="even">
 <td align="right">A</td>
 <td align="right"><span class="math inline">\(e_A\)</span></td>
-<td align="right"><span class="math inline">\(-(d_{AB}+d_{AC}+e_A)\)</span></td>
+<td align="right">−</td>
 <td align="right">0</td>
 <td align="right">0</td>
 <td align="right"><span class="math inline">\(d_{AB}\)</span></td>
@@ -575,7 +582,7 @@ son:</p>
 <td align="right">B</td>
 <td align="right"><span class="math inline">\(e_B\)</span></td>
 <td align="right">0</td>
-<td align="right"><span class="math inline">\(-(d_{BA}+d_{BC}+e_B)\)</span></td>
+<td align="right">−</td>
 <td align="right">0</td>
 <td align="right"><span class="math inline">\(d_{BA}\)</span></td>
 <td align="right">0</td>
@@ -587,7 +594,7 @@ son:</p>
 <td align="right"><span class="math inline">\(e_C\)</span></td>
 <td align="right">0</td>
 <td align="right">0</td>
-<td align="right"><span class="math inline">\(-(d_{CA}+d_{CB}+e_C)\)</span></td>
+<td align="right">−</td>
 <td align="right">0</td>
 <td align="right"><span class="math inline">\(d_{CA}\)</span></td>
 <td align="right"><span class="math inline">\(d_{CB}\)</span></td>
@@ -599,7 +606,7 @@ son:</p>
 <td align="right"><span class="math inline">\(e_B\)</span></td>
 <td align="right"><span class="math inline">\(e_A\)</span></td>
 <td align="right">0</td>
-<td align="right"><span class="math inline">\(-(e_A+e_B+d_{AC}+d_{BC})\)</span></td>
+<td align="right">−</td>
 <td align="right">0</td>
 <td align="right">0</td>
 <td align="right"><span class="math inline">\((d_{AC}+d_{BC})\)</span></td>
@@ -611,7 +618,7 @@ son:</p>
 <td align="right">0</td>
 <td align="right"><span class="math inline">\(e_A\)</span></td>
 <td align="right">0</td>
-<td align="right"><span class="math inline">\(-(e_A+e_C+d_{AB}+d_{CB})\)</span></td>
+<td align="right">−</td>
 <td align="right">0</td>
 <td align="right"><span class="math inline">\((d_{AB}+d_{CB})\)</span></td>
 </tr>
@@ -623,7 +630,7 @@ son:</p>
 <td align="right"><span class="math inline">\(e_B\)</span></td>
 <td align="right">0</td>
 <td align="right">0</td>
-<td align="right"><span class="math inline">\(-(e_B+e_C+d_{BA}+d_{CA})\)</span></td>
+<td align="right">−</td>
 <td align="right"><span class="math inline">\((d_{BA}+d_{CA})\)</span></td>
 </tr>
 <tr class="even">
@@ -635,7 +642,7 @@ son:</p>
 <td align="right"><span class="math inline">\(e_C\)</span></td>
 <td align="right"><span class="math inline">\(e_B\)</span></td>
 <td align="right"><span class="math inline">\(e_A\)</span></td>
-<td align="right"><span class="math inline">\(-(e_A+e_B+e_C)\)</span></td>
+<td align="right">−</td>
 </tr>
 </tbody>
 </table>
@@ -654,8 +661,7 @@ matriz de tasa DEC en RevBayes.</p>
 binario de RevBayes.</p></li>
 </ol>
 <p>Supongamos que tenemos tres áreas</p>
-<pre><code>n_areas &lt;- 3
-</code></pre>
+<pre><code>n_areas &lt;- 3</code></pre>
 <p>Primero, creamos una matriz de tasas de dispersión entre pares de
 áreas, con tasas <span class="math inline">\(d_{AB} = d_{AC} = \cdots =
 d_{CB} = 1\)</span></p>
@@ -663,8 +669,7 @@ d_{CB} = 1\)</span></p>
     for (j in 1:n_areas) {
         dr[i][j] &lt;- 1.0
     }
-}
-</code></pre>
+}</code></pre>
 <p>A continuación, vamos a crear las tasas de extirpación con valores
 <span class="math inline">\(e_{A} = e_{B} = e_{C} = 1\)</span></p>
 <pre><code>for (i in 1:n_areas) {
@@ -681,8 +686,7 @@ extensas que abarcan áreas desconectadas.</p>
 <p>Para continuar, creamos la matriz de tasas del modelo DEC a partir de
 las tasas de dispersión (dr) y las tasas de extirpación (er).</p>
 <pre><code>Q_DEC := fnDECRateMatrix(dispersalRates=dr, extirpationRates=er)
-Q_DEC
-</code></pre>
+Q_DEC</code></pre>
 <pre><code>
 [ [ 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000 ] ,
      [ 1.0000, -3.0000, 0.0000, 0.0000, 1.0000, 1.0000, 0.0000, 0.0000 ] ,
@@ -695,13 +699,11 @@ Q_DEC
 <p>Calculamos las probabilidades de transición anagenética para una rama
 de longitud 0.2.</p>
 <pre><code>tp_DEC &lt;- Q_DEC.getTransitionProbabilities(rate=0.2)
-tp_DEC
-</code></pre>
+tp_DEC</code></pre>
 <pre><code>[ [ 1.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000, 0.000 ], [ 0.000, 0.673, 0.013, 0.013, 0.123, 0.123, 0.005, 0.050 ], [ 0.000, 0.013, 0.673, 0.013,
    0.123, 0.005, 0.123, 0.050 ], [ 0.000, 0.013, 0.013, 0.673, 0.005, 0.123, 0.123, 0.050 ], [ 0.000, 0.107, 0.107, 0.004, 0.502, 0.031, 0.031, 0.218 ], [
    0.000, 0.107, 0.004, 0.107, 0.031, 0.502, 0.031, 0.218 ], [ 0.000, 0.004, 0.107, 0.107, 0.031, 0.031, 0.502, 0.218 ], [ 0.000, 0.021, 0.021, 0.021, 0.107,
-   0.107, 0.107, 0.616 ] ]
-</code></pre>
+   0.107, 0.107, 0.616 ] ]</code></pre>
 <p>Observa cómo la estructura de la matriz de tasas se refleja
 directamente en la matriz de probabilidades de transición. Por ejemplo,
 los rangos que están separados por múltiples eventos de dispersión y
@@ -722,10 +724,10 @@ eliminar el rango nulo del espacio de estados, lo cual puede
 implementarse mediante la opción <code>nullRange = &quot;Exclude&quot;</code>. La
 opción <code>nullRange = &quot;Include&quot;</code> no aplica ningún tratamiento
 especial al rango nulo y produce las probabilidades originales descritas
-por <a href="#ree2005">Ree et al. (2005)</a>.</p>
+por <a href="#ree2005">Ree et al. (2005)</a>.</p>
 </div>
-<div id="evolución-cladogenética-del-rango" class="section level2">
-<h2>Evolución cladogenética del rango</h2>
+<div id="evolución-cladogenética-del-rango" class="section level3">
+<h3>Evolución cladogenética del rango</h3>
 <p>El componente cladogenético del modelo DEC describe los cambios
 evolutivos que acompañan a los eventos de especiación (Figuras 1c–g). En
 el contexto de la evolución del rango geográfico, las especies hijas no
@@ -777,8 +779,7 @@ mismo orden, de modo que cada probabilidad se asocia correctamente con
 su tipo de evento correspondiente.</p>
 <p>A continuación, imprimimos las probabilidades de transición
 cladogenética.</p>
-<pre><code>P_DEC
-</code></pre>
+<pre><code>P_DEC</code></pre>
 <pre><code>       [
          ( 1 -&gt; 1, 1 ) = 1.0000,
          ( 2 -&gt; 2, 2 ) = 1.0000,
@@ -797,8 +798,8 @@ cladogénesis, la suma de las probabilidades de todos los resultados
 cladogenéticos posibles, para cierto estado ancestral, es igual a
 uno.</p>
 </div>
-<div id="para-tener-en-cuenta" class="section level2">
-<h2>Para tener en cuenta</h2>
+<div id="para-tener-en-cuenta" class="section level3">
+<h3>Para tener en cuenta</h3>
 <p>Las probabilidades de cambio anagenético a lo largo de los linajes
 deben considerar todas las combinaciones posibles de estados iniciales y
 finales. Para 3 áreas, existen 8 estados posibles, y por lo tanto, <span class="math inline">\(8×8=64\)</span> probabilidades correspondientes a
@@ -819,30 +820,35 @@ ser exponenciadas en un tiempo razonable. Para veinte áreas, <span class="math 
 tanto, la selección de las áreas discretas en un análisis DEC debe
 realizarse considerando cuidadosamente los objetivos del análisis y el
 nivel de complejidad que se desea capturar.</p>
-<p>##Referencias</p>
-<p>Landis MJ, Matzke NJ, Moore BR, Huelsenbeck JP 2013. Análisis
+</div>
+</div>
+<div id="referencias" class="section level2">
+<h2>Referencias</h2>
+<ul>
+<li><p>Landis MJ, Matzke NJ, Moore BR, Huelsenbeck JP 2013. Análisis
 bayesiano de la biogeografía cuando el número de áreas es grande.
-Biología sistemática. 62:789–804.</p>
-<p>Massana KA, Beaulieu JM, Matzke NJ, O’Meara BC 2015. Efectos no nulos
-del rango nulo en modelos biogeográficos: exploración de la estimación
-de parámetros en el modelo DEC. bioRxiv.:026914.</p>
-<p>Matzke NJ 2012. La especiación por eventos fundadores en el paquete
-BioGeoBEARS mejora drásticamente las probabilidades y altera la
+Biología sistemática. 62:789–804.</p></li>
+<li><p>Massana KA, Beaulieu JM, Matzke NJ, O’Meara BC 2015. Efectos no
+nulos del rango nulo en modelos biogeográficos: exploración de la
+estimación de parámetros en el modelo DEC. bioRxiv.:026914.</p></li>
+<li><p>Matzke NJ 2012. La especiación por eventos fundadores en el
+paquete BioGeoBEARS mejora drásticamente las probabilidades y altera la
 inferencia de parámetros en los análisis DEC de
-dispersión-extinción-cladogénesis. Frontiers of Biogeography. 4:210.</p>
-<p>Matzke NJ 2014. La selección de modelos en la biogeografía histórica
-revela que la especiación por eventos fundadores es un proceso crucial
-en los clados insulares. Biología sistemática. 63:951–970.
-10.1093/sysbio/syu056</p>
-<p>Ree RH, Moore BR, Webb CO, Donoghue MJ, Crandall K. 2005. Un marco de
-probabilidad para inferir la evolución del rango geográfico en árboles
-filogenéticos. Evolution. 59:2299–2311.
-10.1111/j.0014-3820.2005.tb00940.x</p>
-<p>Ree RH, Smith SA 2008. Inferencia de máxima verosimilitud de la
+dispersión-extinción-cladogénesis. Frontiers of Biogeography.
+4:210.</p></li>
+<li><p>Matzke NJ 2014. La selección de modelos en la biogeografía
+histórica revela que la especiación por eventos fundadores es un proceso
+crucial en los clados insulares. Biología sistemática. 63:951–970.
+10.1093/sysbio/syu056</p></li>
+<li><p>Ree RH, Moore BR, Webb CO, Donoghue MJ, Crandall K. 2005. Un
+marco de probabilidad para inferir la evolución del rango geográfico en
+árboles filogenéticos. Evolution. 59:2299–2311.
+10.1111/j.0014-3820.2005.tb00940.x</p></li>
+<li><p>Ree RH, Smith SA 2008. Inferencia de máxima verosimilitud de la
 evolución del rango geográfico por dispersión, extinción local y
 cladogénesis. Biología sistemática. 57:4–14.
-10.1080/10635150701883881</p>
-</div>
+10.1080/10635150701883881</p></li>
+</ul>
 </div>
 
 
