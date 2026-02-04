@@ -20,6 +20,3 @@ title: Martes
   
 : **RStudio**{: .label .label-blue } 
   : [MCMC](https://roszenil.github.io/pcm_naturalistas/practicals/Intro_bayesiana.html)
-  
-: **Revbayes**{: .label .label-blue }Modelo de Markov con dos estados
-  : [Mk2](../practicals/ctmc_revbayes)
