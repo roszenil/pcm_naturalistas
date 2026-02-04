@@ -13,7 +13,7 @@ title: Jueves
   : [Diapositivas](https://roszenil.github.io/pcm_naturalistas/slides/sse_intro_simple.pdf)
   
 : **RevBayes**{: .label .label-blue } Modelo de diversificación dependiente de estados escondidos 
-  : [HiSSE]((../practicals/hisse_revbayes)
+  : [HiSSE](../practicals/hisse_revbayes)
   
 : **RStudio**{: .label .label-blue }
   : [Visualización HiSSE]()
