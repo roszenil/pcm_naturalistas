@@ -9,6 +9,9 @@ title: Jueves
 : **Invitados**{: .label .label-yellow }
   : Dra. Ixchel González Ramírez y Dr. Santiago Ramírez-Barahona. UNAM Mêxico
   
+:**Recursos** {: .label .label-purple } Aprendiendo más
+  : [Lista de recursos](../practicals/recursos)
+  
 : **Clase**{: .label .label-red } Modelo de diversificación dependiente de estados escondidos 
   : [Diapositivas](https://roszenil.github.io/pcm_naturalistas/slides/sse_intro_simple.pdf)
   
