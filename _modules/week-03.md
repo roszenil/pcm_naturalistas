@@ -19,7 +19,7 @@ title: Jueves
   : [HiSSE](../practicals/hisse_revbayes)
   
 : **RStudio**{: .label .label-blue }
-  : [Visualización HiSSE]()
+  : [Visualización HiSSE](https://roszenil.github.io/pcm_naturalistas/practicals/hisse_visualizaciones.html)
 
 : **Presentaciones Rápidas**{: .label .label-green }
   : Incorporando PCMs a nuestra investigación
