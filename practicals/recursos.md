@@ -14,7 +14,7 @@ Creado por Rosana Zenil-Ferguson (Enero 202t)
 
 1. [Matthias Valentin](https://matthias.vallentin.net/) tiene un "cheatsheet" donde se pueden ver rápidamente las distribuciones.  En este [link](https://roszenil.github.io/pcm_naturalistas/slides/probability_distributions.pdf) les dejo las distribuciones de probabilidad que comunmente usamos en RevBayes y varios ejemplos aplicados de estadística Bayesiana. 
 
-2. Explorador de distribuciones de probabilidad. En este [link] (https://distribution-explorer.github.io/) pueden encontrar una visualización de distribuciones y modificar los parámetros para que uno piense sus a priori con más cuidado. 
+2. Explorador de distribuciones de probabilidad. En este [link](https://distribution-explorer.github.io/) pueden encontrar una visualización de distribuciones y modificar los parámetros para que uno piense sus a priori con más cuidado. 
  
  
 ## Recursos de RevBayes
