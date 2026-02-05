@@ -6,8 +6,9 @@ title: Jueves
 : **Discusión**{: .label .label-green}
   : Importancia de los métodos comparativos
   
-: **Invitados**{: .label .label-yellow }
-  : Dra. Ixchel González Ramírez y Dr. Santiago Ramírez-Barahona. UNAM Mêxico
+: **Invitados**{: .label .label-yellow } Dra. Ixchel González Ramírez
+  : Dr. Santiago Ramírez-Barahona. UNAM, México
+  : [Video](https://uky.zoom.us/rec/share/AjCdG2Ll9CR5s6xOcpQtmScVr_qKf0axJkz8h4JNDQSmlUm_lq1OtsLmvVY-n1Mi.jsVP1mmjyPI6HLh2)
   
 : **Recursos**{: .label .label-purple } Aprendiendo más
   : [Lista de recursos](../practicals/recursos)
